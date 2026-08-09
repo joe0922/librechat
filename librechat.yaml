@@ -1,0 +1,13 @@
+version: 1.3.13
+cache: true
+
+modelSpecs:
+  enforce: false
+  prioritize: true
+  list:
+    - name: "claude-sonnet-5"
+      label: "Claude Sonnet 5"
+      default: true
+      preset:
+        endpoint: "anthropic"
+        model: "claude-sonnet-5"
