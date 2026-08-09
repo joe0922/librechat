@@ -1,0 +1,16 @@
+{
+  "name": "librechat-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "forwardPorts": [3080, 27017],
+  "portsAttributes": {
+    "3080": { "label": "LibreChat" },
+    "27017": { "label": "MongoDB" }
+  },
+  "remoteUser": "vscode"
+}
