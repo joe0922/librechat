@@ -16,5 +16,10 @@ fileConfig:
   endpoints:
     default:
       fileLimit: 9999
+      fileSizeLimit: 100
+      totalSizeLimit: 200
     anthropic:
       fileLimit: 9999
+      fileSizeLimit: 100
+      totalSizeLimit: 200
+  fileTokenLimit: 200000
