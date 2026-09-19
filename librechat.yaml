@@ -11,3 +11,10 @@ modelSpecs:
       preset:
         endpoint: "anthropic"
         model: "claude-sonnet-5"
+
+fileConfig:
+  endpoints:
+    default:
+      fileLimit: 9999
+    anthropic:
+      fileLimit: 9999
